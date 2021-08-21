@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700);
+
+body {
+  font-family: Roboto Mono, Helvetica, Arial, sans-serif;
+  background-color: black;
+  max-width: 75%;
+  margin: auto;
+  color: white;
+}
+.navbar {
+  display:flex;
+  justify-content: space-between;
+}
+.navbar .navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  margin-top: 0.80rem;
+  color: #4af626;
+}
+.navbar .navbar-nav {
+  list-style: none;
+
+}
+.navbar .navbar-link {
+  display: inline;
+}
+.navbar .navbar-link .navbar-link-a {
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 0rem 0.1rem; 
+  color: white;
+}
+.navbar .navbar-link .navbar-link-a:hover {
+  color: #4af626;
+  
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem;
+}
+.head .head-greet {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.6rem;
+  margin: auto;
+}
+.head .head-graphic {
+  margin: auto;
+}
+.head .head-graphic .head-graphic-gif {
+  max-width: 30rem;
+}
+
+.tech {
+  padding: 2rem;
+  text-align: center;
+  margin:auto;
+}
+.tech .tech-what {
+  font-size: 1.8rem;
+}
+.tech .tech-what-heart {
+  color: red;
+}
+.tech .tech-detail {
+  list-style: none;
+  margin-top: 2rem;
+}
+.tech .tech-br {
+  display: inline;
+  margin: 0rem 0.5rem;
+}
+
+.projects {
+  padding:2rem;
+  text-align: center;
+  margin:top;
+}
+.projects .projects-what {
+  font-size: 1.8rem;
+}
+.projects .projects-detail {
+  list-style: none;
+  margin-top: 2rem;
+}
+.projects .projects-br {
+  display: inline;
+  margin: 0rem 0.5rem;
+}
+
+
+
+.foot {
+  display: flex;
+  justify-content:center;
+}
+.foot .foot-f {
+  text-decoration: none;
+  list-style: none;
+}
+.foot .foot-f .foot-f-link {
+  display: inline;
+}
+.foot .foot-button {
+  color: white;
+  margin: 0rem 0.5rem;
+}
+.foot .foot-button:hover {
+    color: #4af626;
+}
