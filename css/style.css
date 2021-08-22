@@ -1,25 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700);
 
 body {
-  font-family: Roboto Mono, Helvetica, Arial, sans-serif;
+  font-family: "Roboto Mono", Helvetica, Arial, sans-serif;
   background-color: black;
   max-width: 75%;
   margin: auto;
   color: white;
 }
 .navbar {
-  display:flex;
+  display: flex;
   justify-content: space-between;
 }
 .navbar .navbar-brand {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
-  margin-top: 0.80rem;
+  margin-top: 0.8rem;
   color: #4af626;
 }
 .navbar .navbar-nav {
   list-style: none;
-
 }
 .navbar .navbar-link {
   display: inline;
@@ -27,12 +26,14 @@ body {
 .navbar .navbar-link .navbar-link-a {
   text-decoration: none;
   font-size: 1rem;
-  margin: 0rem 0.1rem; 
+  margin: 0rem 0.1rem;
   color: white;
 }
 .navbar .navbar-link .navbar-link-a:hover {
   color: #4af626;
-  
+}
+.navbar .navbar-link .link-active {
+  color: #4af626;
 }
 
 .head {
@@ -41,7 +42,7 @@ body {
   margin-top: 6rem;
 }
 .head .head-greet {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2.6rem;
   margin: auto;
 }
@@ -52,10 +53,18 @@ body {
   max-width: 30rem;
 }
 
+.head-say {
+  margin: auto;
+  padding: 2rem;
+  font-size: 2rem;
+  font-family: "Robot", sans-serif;
+  text-align: center;
+}
+
 .tech {
   padding: 2rem;
   text-align: center;
-  margin:auto;
+  margin: auto;
 }
 .tech .tech-what {
   font-size: 1.8rem;
@@ -73,27 +82,40 @@ body {
 }
 
 .projects {
-  padding:2rem;
+  padding: 2rem;
   text-align: center;
-  margin:top;
 }
 .projects .projects-what {
   font-size: 1.8rem;
 }
+.projects .date {
+  padding-top: 0.2rem;
+  font-size: 0.9rem;
+}
 .projects .projects-detail {
-  list-style: none;
-  margin-top: 2rem;
+  padding: 0.5rem;
+  /* text-align: justify; */
 }
-.projects .projects-br {
-  display: inline;
-  margin: 0rem 0.5rem;
+.buttons {
+  /* text-align: right; */
+  margin: 0.35rem auto;
 }
-
-
+.buttons-link {
+  padding: 0.25rem 0.5rem;
+  background-color: #4af626;
+  color: black;
+  border-radius: 0rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+.buttons-link:hover {
+  background-color: white;
+  color: black;
+}
 
 .foot {
   display: flex;
-  justify-content:center;
+  justify-content: space-around;
 }
 .foot .foot-f {
   text-decoration: none;
@@ -107,5 +129,5 @@ body {
   margin: 0rem 0.5rem;
 }
 .foot .foot-button:hover {
-    color: #4af626;
+  color: #4af626;
 }
