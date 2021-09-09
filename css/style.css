@@ -1,133 +1,79 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700);
 
+:root {
+  --main-color: #09b83e;
+}
 body {
   font-family: "Roboto Mono", Helvetica, Arial, sans-serif;
-  background-color: black;
-  max-width: 75%;
   margin: auto;
-  color: white;
+  padding: 1rem;
+  display: block;
+  max-width: 1000px;
 }
-.navbar {
+nav {
   display: flex;
   justify-content: space-between;
-}
-.navbar .navbar-brand {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.3rem;
-  margin-top: 0.8rem;
-  color: #4af626;
-}
-.navbar .navbar-nav {
-  list-style: none;
-}
-.navbar .navbar-link {
-  display: inline;
-}
-.navbar .navbar-link .navbar-link-a {
-  text-decoration: none;
-  font-size: 1rem;
-  margin: 0rem 0.1rem;
-  color: white;
-}
-.navbar .navbar-link .navbar-link-a:hover {
-  color: #4af626;
-}
-.navbar .navbar-link .link-active {
-  color: #4af626;
-}
-
-.head {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 6rem;
-}
-.head .head-greet {
-  font-family: "Roboto", sans-serif;
-  font-size: 2.6rem;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #ecf0f1;
   margin: auto;
+  padding: 1rem;
+  border-radius: 10px;
 }
-.head .head-graphic {
-  margin: auto;
-}
-.head .head-graphic .head-graphic-gif {
-  max-width: 30rem;
-}
-
-.head-say {
-  margin: auto;
-  padding: 2rem;
-  font-size: 2rem;
-  font-family: "Robot", sans-serif;
-  text-align: center;
-}
-
-.tech {
-  padding: 2rem;
-  text-align: center;
-  margin: auto;
-}
-.tech .tech-what {
-  font-size: 1.8rem;
-}
-.tech .tech-what-heart {
-  color: red;
-}
-.tech .tech-detail {
-  list-style: none;
-  margin-top: 2rem;
-}
-.tech .tech-br {
-  display: inline;
-  margin: 0rem 0.5rem;
-}
-
-.projects {
-  padding: 2rem;
-  text-align: center;
-}
-.projects .projects-what {
-  font-size: 1.8rem;
-}
-.projects .date {
-  padding-top: 0.2rem;
-  font-size: 0.9rem;
-}
-.projects .projects-detail {
-  padding: 0.5rem;
-  /* text-align: justify; */
-}
-.buttons {
-  /* text-align: right; */
-  margin: 0.35rem auto;
-}
-.buttons-link {
-  padding: 0.25rem 0.5rem;
-  background-color: #4af626;
-  color: black;
-  border-radius: 0rem;
-  text-decoration: none;
+.brand-name {
+  color: var(--main-color);
+  font-size: 1.5rem;
   font-weight: bold;
 }
-.buttons-link:hover {
-  background-color: white;
-  color: black;
+.menu {
+  font-size: 1.2rem;
 }
-
-.foot {
-  display: flex;
-  justify-content: space-around;
-}
-.foot .foot-f {
+.menu-options {
   text-decoration: none;
-  list-style: none;
+  color: black;
+  margin: auto 0.1rem;
 }
-.foot .foot-f .foot-f-link {
+.menu-options:hover {
+  font-weight: bold;
+}
+main {
+  display: flex;
+  justify-content: flex-start;
+  margin: 3rem auto 1rem;
+  padding: 1rem;
+  align-items: center;
+}
+.my-introduction {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-left: 3.5rem;
+}
+.programmer-img {
+  width: 350px;
+}
+.technologies {
+  display: block;
+  margin: auto;
+  padding: 1rem;
+}
+.technologies-name {
+  display: block;
+  margin: auto;
+  padding: 0rem 0rem 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.love {
+  color: red;
+  font-weight: bolder;
+}
+.technologies-logo {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.tech-br {
   display: inline;
-}
-.foot .foot-button {
-  color: white;
-  margin: 0rem 0.5rem;
-}
-.foot .foot-button:hover {
-  color: #4af626;
+  padding: 0.5rem;
+  filter: drop-shadow(0 0 5rem var(--main-color));
 }
