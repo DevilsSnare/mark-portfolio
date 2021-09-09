@@ -7,7 +7,7 @@ body {
   font-family: "Roboto Mono", Helvetica, Arial, sans-serif;
   margin: auto;
   padding: 1rem;
-  max-width: 1000px;
+  max-width: 900px;
 }
 nav {
   display: flex;
@@ -38,18 +38,22 @@ nav {
 main {
   display: flex;
   justify-content: space-between;
-  margin: 3rem auto 1rem;
+  margin: 3rem auto 3rem;
   padding: 1rem;
   align-items: center;
-  flex-wrap: wrap;
+  align-content: center;
+  flex-wrap: wrap-reverse;
 }
 .my-introduction {
+  margin: auto;
   font-size: 2.2rem;
   font-weight: bold;
   margin-left: 3.5rem;
+  max-width: 300px;
 }
 .programmer-img {
-  width: 350px;
+  margin: auto;
+  width: 300px;
 }
 .technologies {
   display: block;
