@@ -5,9 +5,16 @@
 }
 body {
   font-family: "Roboto Mono", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   margin: auto;
   padding: 1rem;
   max-width: 900px;
+  justify-content: space-between;
+}
+.upper {
+  flex: 1;
 }
 nav {
   display: flex;
@@ -32,13 +39,16 @@ nav {
   color: black;
   margin: auto 0.1rem;
 }
+.optionActive {
+  font-weight: bold;
+}
 .menu-options:hover {
   font-weight: bold;
 }
 main {
   display: flex;
   justify-content: space-between;
-  margin: 3rem auto 3rem;
+  margin: 3rem auto 1rem;
   padding: 1rem;
   align-items: center;
   align-content: center;
@@ -59,6 +69,7 @@ main {
   display: block;
   margin: auto;
   padding: 1rem;
+  padding-top: 2rem;
 }
 .technologies-name {
   display: block;
@@ -80,4 +91,22 @@ main {
   display: inline;
   padding: 0.5rem;
   filter: drop-shadow(0 0 5rem var(--main-color));
+}
+footer {
+  display: block;
+  flex: 0 0 100%;
+  width: 90%;
+  margin: 3rem auto auto;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+}
+.link {
+  margin: auto;
+  padding: 0.8rem;
+  color: black;
+}
+.foot-button:hover {
+  transform: scale(1.3);
 }
