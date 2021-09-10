@@ -29,7 +29,7 @@ nav {
 .brand-name {
   color: var(--main-color);
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: bolder;
 }
 .menu {
   font-size: 1.2rem;
@@ -69,7 +69,7 @@ main {
   display: block;
   margin: auto;
   padding: 1rem;
-  padding-top: 2rem;
+  padding-top: 2.5rem;
 }
 .technologies-name {
   display: block;
@@ -84,13 +84,38 @@ main {
 }
 .technologies-logo {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .tech-br {
   display: inline;
-  padding: 0.5rem;
-  filter: drop-shadow(0 0 5rem var(--main-color));
+  padding: 0.5rem 1rem;
+  /* filter: drop-shadow(0 0 5rem var(--main-color)); */
+}
+.projects-blogs {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: auto;
+  padding-top: 5rem;
+}
+.projects-blogs-brand {
+  color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 1rem;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+  /* border: 1px solid var(--main-color); */
+  background-color: #ecf0f1;
+  width: 300px;
+}
+.projects-blogs-brand:hover {
+  font-weight: bold;
+  box-shadow: 0 0 10px var(--main-color);
+  /* text-shadow: 0 0 20px var(--main-color); */
 }
 footer {
   display: block;
@@ -140,7 +165,8 @@ footer {
 .name {
   margin: auto;
   padding: 0.1rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 .details {
   margin: auto;
