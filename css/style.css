@@ -53,17 +53,18 @@ main {
   align-items: center;
   align-content: center;
   flex-wrap: wrap-reverse;
+  /* background-color: red; */
 }
 .my-introduction {
   margin: auto;
   font-size: 2.2rem;
   font-weight: bold;
-  margin-left: 3.5rem;
+  /* margin-left: 5rem; */
   max-width: 300px;
 }
 .programmer-img {
   margin: auto;
-  width: 300px;
+  width: 250px;
 }
 .technologies {
   display: block;
