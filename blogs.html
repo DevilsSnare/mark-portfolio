@@ -25,19 +25,18 @@
         <div class="main-flex">
             <div class="projects-brand">blogs</div>
             <div class="projects-list">
-                <div class="project">
-                    <div class="name">dummy blog a</div>
-                    <div class="details">A website which can help you to check whether your birthday is lucky or not.
-                    </div>
-                    <a class="button-prj" href="#" target="_blank">read more</a>
+                <div class="blog">
+                    <div id="medium-widget"></div>
+                    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+                    <script>MediumWidget.Init({ renderTo: '#medium-widget', params: { "resource": "https://medium.com/@chetanpaliwalxyz", "postsPerLine": 2, "limit": 4, "picture": "big", "fields": ["description", "author", "claps", "publishAt"], "ratio": "original" } })</script>
                 </div>
-                <div class="project">
+                <!-- <div class="blog">
                     <div class="name">dummy blog b</div>
                     <div class="details">A cash register manager which helps the user by telling how can he/she return
                         the change
                         to the customer with minimum number of notes.</div>
                     <a class="button-prj" href="#" target="_blank">read more</a>
-                </div>
+                </div> -->
             </div>
         </div>
 

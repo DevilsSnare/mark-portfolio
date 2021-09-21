@@ -190,3 +190,11 @@ footer {
   background-color: var(--main-color);
   color: white;
 }
+.blog {
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 3px solid var(--main-color);
+  border-radius: 10px;
+  width: 500px;
+  height: fit-content;
+}
