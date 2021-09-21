@@ -195,6 +195,6 @@ footer {
   padding: 0.5rem;
   border: 3px solid var(--main-color);
   border-radius: 10px;
-  width: 500px;
+  /* width: 500px; */
   height: fit-content;
 }
